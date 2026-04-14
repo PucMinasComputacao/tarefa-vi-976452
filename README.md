@@ -1,26 +1,52 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/l5aEXaFh)
-# Trabalho Prático - Semana 6
+# Projeto Responsivo com Bootstrap - EJC da Paróquia
 
-Nessa atividade, como sempre, vamos evoluir o que foi feito na semana anterior. Fique atento para fazer o projeto da semana anterior e dar sequência nessa jornada.
+## Aluna
+Maria Luiza Aparecida Trindade de Meneses
 
-No trabalho dessa semana vamos alterar o projeto para que a responsividade da home-page seja feita, agora, com o framework Bootstrap.
+## Descrição do Projeto
+Este projeto consiste na evolução da home-page desenvolvida na atividade anterior, mantendo o tema do **EJC da Paróquia** e refatorando a responsividade com o uso do framework Bootstrap.
 
-**IMPORTANTE 1:** Você deve alterar apenas os arquivos **`README.md`**, **`index.html`** e **`styles.css`**, podendo incluir outros arquivos como imagens na pasta **`images`**, caso necessário. Deixe todos os demais arquivos e pastas desse repositório inalterados. **PRESTE MUITA ATENÇÃO NISSO.**
+A proposta foi substituir os recursos nativos de responsividade utilizados anteriormente (como media queries, flexbox e grid em CSS puro) pelos recursos oferecidos pelo Bootstrap, mantendo a organização visual da página e melhorando a adaptação entre diferentes dispositivos.
 
-## Informações Gerais
+## Estrutura da Home Page
+A página contém os seguintes elementos obrigatórios:
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- **Header**
+  - Nome do site: EJC da Paróquia
+  - Barra de navegação com 4 links internos
 
-## Print da versão responsiva com Bootstrap [DESKTOP]
+- **Main**
+  - Banner principal
+  - Texto introdutório sobre o Encontro de Jovens com Cristo
 
-<<  COLOQUE A IMAGEM AQUI >>
+- **Section**
+  - 3 cards informativos
+  - Cada card contém imagem, título e descrição
 
-## Print da versão responsiva com Bootstrap [MOBILE] (*)
+- **Footer**
+  - Informações institucionais
+  - Links para contato e redes sociais
 
-<<  COLOQUE A IMAGEM AQUI >>
+## Tecnologias Utilizadas
+- HTML5
+- CSS3
+- Bootstrap 5 (via CDN)
+- Git e GitHub
 
+## Responsividade
+A responsividade foi implementada utilizando o sistema de grid do Bootstrap, permitindo:
 
-(*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
+- Exibição em **duas colunas na versão desktop**
+- Ajuste automático para **uma coluna em dispositivos móveis**
+- Organização responsiva dos cards em diferentes tamanhos de tela
+
+## Prints do Projeto
+
+### Versão Desktop
+![Versão Desktop](public/print-desktop.png)
+
+### Versão Mobile
+![Versão Mobile](public/print-mobile.png)
+
+## Repositório
+A URL do repositório foi enviada no Canvas conforme solicitado.
